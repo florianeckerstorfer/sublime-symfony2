@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+
+class ${1:ControllerName}Controller extends Controller
+{
+    ${0:// Actions...}
+}
+
+]]></content>
+    <tabTrigger>sfcon</tabTrigger>
+    <scope>source.php</scope>
+    <description>class …Controller extends Controller { … }</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[public function ${1:ActionName}Action()
+{
+    ${0:// Action code...}
+}]]></content>
+    <tabTrigger>sfact</tabTrigger>
+    <scope>source.php</scope>
+    <description>public function …Action() { … }</description>
+</snippet>
