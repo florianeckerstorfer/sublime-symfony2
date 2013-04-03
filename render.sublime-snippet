@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[return $this->render(
+    <content><![CDATA[return \$this->render(
     ${1:'${2:TemplateName}.html.twig'},
     array(${3:variables…})
 );$0]]></content>
