@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[<route id="${1:id}" pattern="${2:pattern}">
+    <default key="_controller">${3:controller}</default>
+</route>$0]]></content>
+    <tabTrigger>sfr</tabTrigger>
+    <scope>text.xml</scope>
+    <description><![CDATA[<route id="..." pattern="...">...</route>]]></description>
+</snippet>

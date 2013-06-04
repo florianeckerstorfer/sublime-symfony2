@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    $0
+
+</routes>
+
+]]></content>
+    <tabTrigger>sfroutexml</tabTrigger>
+    <scope>text.xml</scope>
+    <description><![CDATA[<routes ...>...</routes>]]></description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[<service id="${1:id}" class="${2:%${3:$1}.class%}">
+    $0
+</service>]]></content>
+    <tabTrigger>sfcons</tabTrigger>
+    <scope>text.xml</scope>
+    <description><![CDATA[<sevice id="..." class="...">...</service>]]></description>
+</snippet>
