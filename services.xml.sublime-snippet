@@ -16,7 +16,7 @@
 </container>
 
 ]]></content>
-    <tabTrigger>sfcon</tabTrigger>
+    <tabTrigger>sfserv</tabTrigger>
     <scope>text.xml</scope>
     <description><![CDATA[<container ...>...</container>]]></description>
 </snippet>
