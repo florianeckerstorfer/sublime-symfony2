@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
+
+class ${1:Class}Command extends ContainerAwareCommand
+{
+    /**
+     * {@inheritDoc}
+     */
+    protected function configure()
+    {
+        \$this
+            ->setName('${2:name}')
+            ->setDescription('${3:command}')
+        ;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function execute(InputInterface \$input, OutputInterface \$output)
+    {
+        ${0:// Command code...}
+    }
+}]]></content>
+    <tabTrigger>sfcommand</tabTrigger>
+    <scope>source.php</scope>
+    <description>class NameCommand extends ContainerAwareCommand { ... }</description>
+</snippet>
